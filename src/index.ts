@@ -88,7 +88,7 @@ function useDimensions({
                 };
             }
         }
-    }, [node]);
+    });
 
     return [ref, dimensions, node];
 }
